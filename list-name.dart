@@ -32,5 +32,5 @@ remover() {
   imprimir();
   int nome = int.parse(stdin.readLineSync()! );
   nomes.removeAt(nome);
-  print("Nome removido coom sucesso");
+  print("Nome removido com sucesso");
 }
